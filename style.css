@@ -40,6 +40,7 @@ nav ul li a:hover {
 /* Hero */
 .hero {
     margin-top: 50px;
+    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -50,8 +51,166 @@ nav ul li a:hover {
     margin-left: 50px;
     align-items: center;
 }
+
+.hero-text button{
+    border: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.hero-text button:hover{
+    background-color: #5cd4f4;
+    color: white;
+}
 .hero-image img{
     width: 700px;
     height: 500px;
     /* height: 200px; */
 }
+
+/* contact */
+
+.contact h1{
+    text-align: center;
+}
+section .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content .info {
+    width: 25%;
+	height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.content .info .detail-info {
+    margin: 14px;
+    text-align: center;
+}
+
+.content .info .detail-info i {
+    font-size: 30x;
+    color: #86acf4;
+    margin-bottom: 10px;
+}
+
+.content .info .detail-info .judul-info {
+    font-size: 18px;
+    font-weight: 500;
+}
+.content .info .detail-info .detail-1,
+.content .info .detail-info .detail-1 {
+    font-size: 14px;
+}
+
+.content .pesan {
+    width: 75%;
+    margin-left: 100px;
+    /* align-self: flex-start; */
+}
+.content .pesan .judul {
+    font-size: 18px;
+	font-weight: 600;
+}
+
+.pesan .input-box {
+    height: 50px;
+	width: 100%;
+	margin: 12px 0;
+}
+
+.pesan .input-box input,
+.pesan .input-box textarea{
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-style: 16px;
+    border-radius: 8px;
+    padding: 0 15px;
+    background: #e6e6e6;
+}
+
+.pesan .pesan-box {
+    min-height: 100px;
+}
+
+.pesan .input-box {
+    padding-top: 6px;
+}
+
+.pesan button {
+    display: inline-block;
+    margin-top: 12px;
+    font-size: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.pesan button:hover {
+    background-color: #5cd4f4;
+}
+
+/* BLog Preview */
+
+.blog-preview {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin-block: 2rem;
+    gap: 1rem;
+}
+.blog{
+    text-align: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: clamp(20rem, calc(20rem + 2vw), 22rem);
+    overflow: hidden;
+    background: #5cd4f4;
+    background: linear-gradient(to right, #ffffff, #f7f4f2);
+    align-items: center;
+    text-align: justify;
+}
+
+.card img {
+    max-width: 50%;
+    /* height: 400px;
+    width: 200px; */
+    display: inline-block;
+    object-fit: fill;
+}
+
+.card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem;
+}
+
+.card-footer {
+    display: flex;
+    align-self: flex-start;
+    padding-left: 20px;
+    margin-top: -30px;
+}
+
+
+
+
+
+
