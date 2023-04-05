@@ -264,5 +264,52 @@ background-color: #f44336;
 color: #fff;
 }
 
+/* Blog Page */
+.blog {
+    margin-top: 30px;
+} 
+/* .blog .header {
+    padding: 10px;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    background-image: url("https://res.cloudinary.com/diptxmzhz/image/upload/v1680700610/Technical%20Project%20Assignment%20%28TPA%29/fotis-fotopoulos-6sAl6aQ4OWI-unsplash_otmg8d.jpg") ;
+    height: 200px;
+
+} */
+
+
+
+.blog .row {
+    display: flex;
+}
+.blog .content {
+    float: left;
+    width: 75%;
+    border-radius: 20px;
+    text-align: justify;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.blog .sidebar {
+    text-align: left;
+    float: left;
+    width: 25%;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin-left: 14px;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.blog .card1 {
+    padding: 15px;
+
+}
+
+.card1 img {
+    width: 80%;
+}
 
 
